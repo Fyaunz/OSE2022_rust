@@ -1,5 +1,17 @@
 # Risc-V Rust OS
 
+Os written in Rust
+
+## RISC-V
+
+[Register]<https://en.wikichip.org/wiki/risc-v/registers>
+<https://github.com/riscv-non-isa/riscv-sbi-doc/blob/master/riscv-sbi.adoc#system-reset-extension-eid-0x53525354-srst>
+<https://github.com/riscv/riscv-isa-manual/#readme>
+<https://github.com/rust-embedded/riscv>
+[Register]
+
+## UART
+
 <https://osblog.stephenmarz.com/ch0.html>
 <https://os.phil-opp.com/>
 <https://github.com/sgmarz/osblog/blob/master/risc_v/src/lds/virt.lds>
@@ -9,9 +21,10 @@
 UART
 <https://www.lammertbies.nl/comm/info/serial-uart>
 
+Check riscv reader for paper info for register infos in first two lectures
+
 ## Questions
 
-- Why use mret in setup
 - How to avoid race-conditions in UART/ Kernel
 
 ### Answered
@@ -27,6 +40,8 @@ UART
 
 ## GDB
 
+- info registers
+
 <https://stackoverflow.com/questions/2420813/using-gdb-to-single-step-assembly-code-outside-specified-executable-causes-error>
 
 - gdbtui. Or run gdb with the -tui switch. Or press C-x C-a after entering gdb.
@@ -39,8 +54,3 @@ UART
 
 Don't use it!
 <https://lldb.llvm.org/use/map.html>
-
-## RISC-V
-
-<https://github.com/riscv/riscv-isa-manual/#readme>
-<https://github.com/rust-embedded/riscv>
