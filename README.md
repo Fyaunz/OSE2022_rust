@@ -49,6 +49,7 @@ Check riscv reader for paper info for register infos in first two lectures
 - Press C-x s
 - use si ni
 - use gdb-multiarch!
+- x/100x $sp
 
 ## LLDB
 
