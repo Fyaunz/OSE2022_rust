@@ -2,5 +2,7 @@
 members = [
   "kernel",
   "riscv",
-  "user",
+  "user_shared",
+  "user_1",
+  "user_2",
 ]
