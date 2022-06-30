@@ -25,7 +25,8 @@ Check riscv reader for paper info for register infos in first two lectures
 
 ## Questions
 
-- How to avoid race-conditions in UART/ Kernel
+- How to avoid race-conditions in UART/ Kernel?
+- What is mtval?
 
 ### Answered
 
@@ -55,3 +56,10 @@ Check riscv reader for paper info for register infos in first two lectures
 
 Don't use it!
 <https://lldb.llvm.org/use/map.html>
+
+## Tools
+
+### NM
+
+Check memory layout
+```x86_64-w64-mingw32-gcc-nm riscv_rust_os | sort```
