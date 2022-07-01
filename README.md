@@ -51,6 +51,7 @@ Check riscv reader for paper info for register infos in first two lectures
 - use si ni
 - use gdb-multiarch!
 - x/100x $sp
+- -exec p/x $mepc
 
 ## LLDB
 
