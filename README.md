@@ -53,6 +53,8 @@ Check riscv reader for paper info for register infos in first two lectures
 - x/100x $sp
 - -exec p/x $mepc
 
+readelf -a user_1 | less
+
 ## LLDB
 
 Don't use it!

@@ -26,6 +26,7 @@
         "multiarch",
         "nographic",
         "objcopy",
+        "plic",
         "pmpaddr",
         "pmpcfg",
         "REGS",
