@@ -23,6 +23,10 @@ UART
 
 Check riscv reader for paper info for register infos in first two lectures
 
+## Plic
+
+<https://github.com/riscv/riscv-plic-spec/blob/master/riscv-plic.adoc>
+
 ## Questions
 
 - How to avoid race-conditions in UART/ Kernel?
