@@ -70,3 +70,7 @@ Don't use it!
 
 Check memory layout
 ```x86_64-w64-mingw32-gcc-nm riscv_rust_os | sort```
+
+## Author
+
+This code was written by @Timo Renk: https://sme.uni-bamberg.de/timo
